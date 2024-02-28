@@ -5,12 +5,12 @@ nav{
 .navbar-brand img{
     width: 2rem;
 }
-col{
+.col{
     -ms-text-justify: auto;
 
 }
 .icono{
-    background-color: aqua;
+    background-color:cornflowerblue;
     text-align: center;
     height: 2rem;
     
@@ -21,7 +21,11 @@ col{
     font-size: 2.0rem;
 
 }
-footer{
-    background-color: aqua;
-    font-size: 1.5rem;
+footer {
+    background-color:cornflowerblue;
+    font-size: 1.1rem;
+
+}
+.card-body{
+    background-color:cornflowerblue;
 }
