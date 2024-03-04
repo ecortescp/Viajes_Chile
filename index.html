@@ -37,13 +37,13 @@
             <a class="nav-link" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quienes Somos</a>
+            <a class="nav-link" href="#section-1">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Destacados</a>
+            <a class="nav-link" href="#section-2">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" >Contacto</a>
+            <a class="nav-link" href="#section-3" >Contacto</a>
           </li>
         </ul>
       </div>
@@ -81,9 +81,9 @@
       </div>
 </header>
 
-<!--Seccion Quienes Somos-->
+<!--Seccion Quienes Somos con Popovers-->
   <section>
-        <div class="titulo-section">
+        <div id="section-1" class="titulo-section">
           <p>¿QUIENES SOMOS?</p>
         </div>
   </section>
@@ -92,19 +92,19 @@
           <div class="row">
               <div class="col">
                   <div class="icono">
-                    <i class="fa-solid fa-plane"></i>
+                    <i class="fa-solid fa-plane" data-bs-toggle="popover" data-bs-title="Viajes en Avión" data-bs-content="Informacion de descuentos con lineas aéreas. Más rápido y comodo" role="button"></i>
                   </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, aperiam eos? Sunt, recusandae. Temporibus odit veritatis fugit molestiae. Odit voluptatum obcaecati provident sint, minima in. Corporis dolore laboriosam architecto esse. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur hic ullam veritatis quibusdam dolor voluptatibus pariatur. Iure, amet reprehenderit architecto quod quas numquam animi autem quidem, fugit, accusantium tenetur.</p>
               </div>
               <div class="col">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, adipisci! Hic, vitae cum id aperiam qui harum necessitatibus sunt eos, officia recusandae, praesentium nobis commodi quas quos iusto blanditiis libero.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quis, odit sequi, adipisci nisi nobis minus quas laudantium magnam iste vero at aliquid aut totam recusandae, ex qui eveniet tempore?</p>
                   <div class="icono">
-                    <i class="fa-solid fa-mountain"></i>
+                    <i class="fa-solid fa-mountain" data-bs-toggle="popover" data-bs-title="Excursiones a Montañas" data-bs-content="Informacion de excursiones a las diversas montañas del pais. Para una gran experiencia." role="button""></i>
                   </div>
               </div>
               <div class="col">
                   <div class="icono">
-                    <i class="fa-solid fa-route"></i>
+                    <i class="fa-solid fa-route" data-bs-toggle="popover" data-bs-title="Rutas Diversas" data-bs-content="Informacion de las difrentes rutas turísticas." role="button"></i>
                   </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt voluptates dignissimos fugiat. Tempora quae voluptates vero eligendi provident laborum iure rerum! Sed ab culpa quibusdam cum perferendis ex illum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eveniet tenetur dicta inventore quasi, reprehenderit molestias nihil consectetur laborum perferendis saepe asperiores, voluptates qui est. Totam dolor eligendi recusandae consequuntur.</p>
               </div>
@@ -114,7 +114,7 @@
     
 <!--Seccion Destacados -  Bootstrap Grid Card-->
   <section class="container">
-      <div class="titulo-section">
+      <div id="section-2"   class="titulo-section">
         <p>DESTACADOS</p>
       </div>
   <div class="row row-cols-1 row-cols-md-4 g-3">
@@ -159,7 +159,7 @@
 
 <!--Seccion Contacto-->
   <section class="container">
-    <div class="titulo-section">
+    <div id="section-3" class="titulo-section">
         <p>CONTACTO</p>
     </div>
       <div class="mb-3">
@@ -181,17 +181,17 @@
     </div>
   </section>
 
-  <!--Pie de página-->
+  <!--Pie de página con link a redes sociales-->
   <footer class="container-fluid">
     <div class="row">
         <div class="col mx-text-center";>
           <p>VIAJES CHILE</p>
         </div>
         <div class="col">
-          <i class="fa-brands fa-github" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?" role="button"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+          <a href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
         </div>
     </div>
   </footer>
@@ -199,6 +199,6 @@
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
   
 <!--Scripts Personal-->
-<link rel="stylesheet" href="assets/js/script.js">
+<script src="assets/js/script.js"></script>
 </body>
 </html>

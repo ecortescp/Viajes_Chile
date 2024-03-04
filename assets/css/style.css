@@ -8,6 +8,7 @@ nav{
 .col{
     -ms-text-justify: auto;
 
+
 }
 .icono{
     background-color:cornflowerblue;
@@ -29,4 +30,10 @@ footer {
 }
 .card-body{
     background-color:cornflowerblue;
+}
+
+i{
+    font-size: 20px;
+    margin: 7px;
+    color: #fff;
 }
